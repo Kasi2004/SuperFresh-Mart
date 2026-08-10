@@ -1,0 +1,38 @@
+[
+  {
+    "id": "offer-1",
+    "title": "Grand Diwali Mahotsav",
+    "description": "Get up to 50% discount on groceries, sweets, and dry fruit gift hampers. Plus extra 10% off with coupon code DIWALI10.",
+    "code": "DIWALI10",
+    "discount": "Up to 50% Off",
+    "type": "Festival Offers",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "offer-2",
+    "title": "Breakfast Combo Deal",
+    "description": "Buy Milk 1L, Whole Wheat Sliced Bread 400g, and Fresh Paneer 200g together and save ₹30 flat! Perfect for daily morning routines.",
+    "code": "BCOMBO30",
+    "discount": "Flat ₹30 Off",
+    "type": "Combo Deals",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "offer-3",
+    "title": "Buy 1 Get 1 Free on Beverages",
+    "description": "BOGO on Pure Orange Fruit Juice 1L packs. Add two items to cart and apply BOGOBEV code to get one of them completely free.",
+    "code": "BOGOBEV",
+    "discount": "Buy 1 Get 1 Free",
+    "type": "Buy One Get One",
+    "image": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "offer-4",
+    "title": "Mega Monsoon Stock-up Sale",
+    "description": "Flat ₹200 off on shopping carts above ₹1999. Valid on all staples, lentils, flour, and household cleaning products.",
+    "code": "MEGASTOCK",
+    "discount": "Flat ₹200 Off",
+    "type": "Mega Discounts",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  }
+]

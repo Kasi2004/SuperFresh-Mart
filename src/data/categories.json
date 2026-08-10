@@ -1,0 +1,110 @@
+[
+  {
+    "id": "fruits-vegetables",
+    "name": "Fruits & Vegetables",
+    "slug": "fruits-vegetables",
+    "description": "Fresh farm produce, organic fruits, leafy greens, and local vegetables.",
+    "icon": "FaAppleAlt",
+    "bgColor": "from-emerald-50 to-teal-50 dark:from-emerald-950/20 dark:to-teal-950/20",
+    "textColor": "text-emerald-600 dark:text-emerald-400"
+  },
+  {
+    "id": "grocery",
+    "name": "Grocery",
+    "slug": "grocery",
+    "description": "Flours, pulses, rice, edible oils, spices, and daily staples.",
+    "icon": "FaShoppingBasket",
+    "bgColor": "from-amber-50 to-orange-50 dark:from-amber-950/20 dark:to-orange-950/20",
+    "textColor": "text-amber-600 dark:text-amber-400"
+  },
+  {
+    "id": "dairy",
+    "name": "Dairy",
+    "slug": "dairy",
+    "description": "Milk, butter, cheese, paneer, yogurt, and fresh cream.",
+    "icon": "FaCheese",
+    "bgColor": "from-blue-50 to-sky-50 dark:from-blue-950/20 dark:to-sky-950/20",
+    "textColor": "text-blue-600 dark:text-blue-400"
+  },
+  {
+    "id": "snacks",
+    "name": "Snacks",
+    "slug": "snacks",
+    "description": "Namkeens, chips, cookies, chocolates, and savory snacks.",
+    "icon": "FaCookie",
+    "bgColor": "from-red-50 to-rose-50 dark:from-red-950/20 dark:to-rose-950/20",
+    "textColor": "text-rose-600 dark:text-rose-400"
+  },
+  {
+    "id": "beverages",
+    "name": "Beverages",
+    "slug": "beverages",
+    "description": "Soft drinks, fruit juices, tea, coffee, and energy drinks.",
+    "icon": "FaCoffee",
+    "bgColor": "from-cyan-50 to-teal-50 dark:from-cyan-950/20 dark:to-teal-950/20",
+    "textColor": "text-cyan-600 dark:text-cyan-400"
+  },
+  {
+    "id": "frozen-foods",
+    "name": "Frozen Foods",
+    "slug": "frozen-foods",
+    "description": "Frozen peas, ready-to-fry snacks, ice creams, and frozen meals.",
+    "icon": "FaSnowflake",
+    "bgColor": "from-indigo-50 to-violet-50 dark:from-indigo-950/20 dark:to-violet-950/20",
+    "textColor": "text-indigo-600 dark:text-indigo-400"
+  },
+  {
+    "id": "bakery",
+    "name": "Bakery",
+    "slug": "bakery",
+    "description": "Freshly baked breads, buns, cakes, muffins, and croissants.",
+    "icon": "FaBreadSlice",
+    "bgColor": "from-yellow-50 to-amber-50 dark:from-yellow-950/20 dark:to-amber-950/20",
+    "textColor": "text-yellow-600 dark:text-yellow-500"
+  },
+  {
+    "id": "personal-care",
+    "name": "Personal Care",
+    "slug": "personal-care",
+    "description": "Shampoos, soaps, skin creams, oral hygiene, and hair oils.",
+    "icon": "FaPumpSoap",
+    "bgColor": "from-pink-50 to-rose-50 dark:from-pink-950/20 dark:to-rose-950/20",
+    "textColor": "text-pink-600 dark:text-pink-400"
+  },
+  {
+    "id": "home-cleaning",
+    "name": "Home Cleaning",
+    "slug": "home-cleaning",
+    "description": "Detergents, floor cleaners, dishwashing soaps, and sanitizers.",
+    "icon": "FaBroom",
+    "bgColor": "from-purple-50 to-fuchsia-50 dark:from-purple-950/20 dark:to-fuchsia-950/20",
+    "textColor": "text-purple-600 dark:text-purple-400"
+  },
+  {
+    "id": "baby-care",
+    "name": "Baby Care",
+    "slug": "baby-care",
+    "description": "Diapers, baby wipes, baby shampoos, soaps, and baby food.",
+    "icon": "FaBaby",
+    "bgColor": "from-teal-50 to-emerald-50 dark:from-teal-950/20 dark:to-emerald-950/20",
+    "textColor": "text-teal-600 dark:text-teal-400"
+  },
+  {
+    "id": "pet-care",
+    "name": "Pet Care",
+    "slug": "pet-care",
+    "description": "Dog food, cat food, pet toys, and grooming essentials.",
+    "icon": "FaDog",
+    "bgColor": "from-orange-50 to-red-50 dark:from-orange-950/20 dark:to-red-950/20",
+    "textColor": "text-orange-600 dark:text-orange-400"
+  },
+  {
+    "id": "kitchen-essentials",
+    "name": "Kitchen Essentials",
+    "slug": "kitchen-essentials",
+    "description": "Storage containers, kitchen utensils, foil, and cleaning sponges.",
+    "icon": "FaUtensils",
+    "bgColor": "from-slate-50 to-zinc-50 dark:from-slate-900/40 dark:to-zinc-900/40",
+    "textColor": "text-slate-600 dark:text-slate-400"
+  }
+]

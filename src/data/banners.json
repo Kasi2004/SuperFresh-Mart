@@ -1,0 +1,26 @@
+[
+  {
+    "id": "banner-1",
+    "title": "Freshness Delivered to Your Doorstep",
+    "subtitle": "Get hand-picked organic fruits & premium vegetables at the lowest prices in Bangalore.",
+    "buttonText": "Shop Fresh Produce",
+    "bgGradient": "from-emerald-600 via-teal-700 to-emerald-800",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "banner-2",
+    "title": "Staples & Daily Grocery Super Deals",
+    "subtitle": "Unbeatable discounts on flours, rice, edible oils, and pulses. Up to 40% off every day.",
+    "buttonText": "Explore Daily Deals",
+    "bgGradient": "from-amber-600 via-orange-600 to-amber-700",
+    "image": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "banner-3",
+    "title": "Monsoon Festival Mega Discounts",
+    "subtitle": "Save flat ₹200 on all orders above ₹1999 + free shipping across Bangalore.",
+    "buttonText": "View Festival Offers",
+    "bgGradient": "from-blue-600 via-indigo-700 to-blue-800",
+    "image": "https://images.unsplash.com/photo-1608686207856-001b95cf60ca?auto=format&fit=crop&w=800&q=80"
+  }
+]

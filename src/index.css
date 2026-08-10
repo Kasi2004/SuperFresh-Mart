@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans bg-slate-50 text-slate-800 transition-colors duration-300 antialiased;
+  }
+
+  body.dark {
+    @apply bg-slate-950 text-slate-100;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+
+  .dark ::-webkit-scrollbar-thumb {
+    background: #334155;
+  }
+
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+  }
+
+  /* Hide scrollbars inside input fields */
+  input::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+}
+
+@layer components {
+
+  /* Glassmorphism custom classes */
+  .glass-card {
+    @apply bg-white/70 dark:bg-slate-900/60 backdrop-blur-md border border-white/20 dark:border-slate-800/50 shadow-glass dark:shadow-glass-dark;
+  }
+
+  .glass-nav {
+    @apply bg-white/80 dark:bg-slate-950/80 backdrop-blur-lg border-b border-slate-200/50 dark:border-slate-800/50;
+  }
+
+  .glass-input {
+    @apply bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm border border-slate-200 dark:border-slate-700 focus:border-primary-500 dark:focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-all outline-none rounded-xl;
+  }
+}
+
+@keyframes loginPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.35);
+  }
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 8px 25px rgba(245, 158, 11, 0.6);
+  }
+}
+
+.login-btn-pulse {
+  animation: loginPulse 2.2s infinite ease-in-out;
+}
+
+.login-btn-styled {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.login-btn-styled:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 8px 25px rgba(245, 158, 11, 0.55) !important;
+}
+
+.login-btn-styled:active {
+  transform: scale(0.96) !important;
+}

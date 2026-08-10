@@ -1,0 +1,1943 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Organic Red Gala Apples",
+    "brand": "Fresh Farms",
+    "category": "fruits-vegetables",
+    "price": 180,
+    "originalPrice": 220,
+    "discount": 18,
+    "rating": 4.6,
+    "reviewsCount": 128,
+    "weight": "1 kg",
+    "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=600&q=80",
+    "description": "Sweet, crisp, and nutrient-dense organic Red Gala apples sourced directly from Shimla orchards. Ideal for healthy snacking, salads, or cooking.",
+    "specifications": {
+      "Origin": "Shimla, India",
+      "Type": "Organic",
+      "Shelf Life": "7 Days",
+      "Storage": "Refrigerate for freshness"
+    },
+    "ingredients": [
+      "100% Organic Red Apples"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "Winter"
+  },
+  {
+    "id": "prod-2",
+    "name": "Fresh Organic Spinach (Palak)",
+    "brand": "Green Leaf",
+    "category": "fruits-vegetables",
+    "price": 30,
+    "originalPrice": 45,
+    "discount": 33,
+    "rating": 4.8,
+    "reviewsCount": 94,
+    "weight": "250 g",
+    "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=600&q=80",
+    "description": "Fresh, hydroponically grown spinach leaves. Rich in iron, vitamins, and minerals. Thoroughly cleaned and ozone-washed for safe consumption.",
+    "specifications": {
+      "Origin": "Local Hydro Farm",
+      "Type": "Leafy Green",
+      "Shelf Life": "3 Days",
+      "Storage": "Keep in a cool, dry place"
+    },
+    "ingredients": [
+      "100% Fresh Spinach Leaves"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": true,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "prod-3",
+    "name": "Fresh Potatoes (Alloo)",
+    "brand": "Earth Sourced",
+    "category": "fruits-vegetables",
+    "price": 40,
+    "originalPrice": 50,
+    "discount": 20,
+    "rating": 4.4,
+    "reviewsCount": 210,
+    "weight": "1 kg",
+    "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=600&q=80",
+    "description": "Standard cooking potatoes sourced from local farms in Punjab. Versatile kitchen staple, perfect for baking, boiling, or frying.",
+    "specifications": {
+      "Origin": "Punjab, India",
+      "Type": "Root Vegetable",
+      "Shelf Life": "15 Days",
+      "Storage": "Store in dry, dark ventilated area"
+    },
+    "ingredients": [
+      "100% Fresh Potato"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "prod-4",
+    "name": "Organic Bananas (Robusta)",
+    "brand": "Fresh Farms",
+    "category": "fruits-vegetables",
+    "price": 60,
+    "originalPrice": 80,
+    "discount": 25,
+    "rating": 4.5,
+    "reviewsCount": 182,
+    "weight": "1 Dozen",
+    "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=600&q=80",
+    "description": "Naturally ripened Robusta bananas. Exceptionally sweet, packed with potassium and quick energy. Sourced from organic growers in Karnataka.",
+    "specifications": {
+      "Origin": "Karnataka, India",
+      "Type": "Organic Fruit",
+      "Shelf Life": "4 Days",
+      "Storage": "Store at room temperature"
+    },
+    "ingredients": [
+      "100% Organic Bananas"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "prod-5",
+    "name": "Premium Basmati Rice (Rozana)",
+    "brand": "India Gate",
+    "category": "grocery",
+    "price": 499,
+    "originalPrice": 650,
+    "discount": 23,
+    "rating": 4.7,
+    "reviewsCount": 420,
+    "weight": "5 kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80",
+    "description": "Aged long-grain Basmati rice. Delivers an aromatic fragrance and fluffy texture upon cooking. Ideal for daily meals, biryani, or pulao.",
+    "specifications": {
+      "Origin": "Haryana, India",
+      "Grain Length": "Long Grain (>7mm)",
+      "Shelf Life": "24 Months",
+      "Storage": "Keep in an airtight container in a dry place"
+    },
+    "ingredients": [
+      "100% Basmati Rice"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "prod-6",
+    "name": "Refined Sunflower Oil",
+    "brand": "Fortune",
+    "category": "grocery",
+    "price": 145,
+    "originalPrice": 180,
+    "discount": 19,
+    "rating": 4.5,
+    "reviewsCount": 350,
+    "weight": "1 L",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=600&q=80",
+    "description": "Light, healthy, and easy-to-digest cooking oil refined to perfection. Enriched with Vitamins A and D. Excellent for deep frying and daily cooking.",
+    "specifications": {
+      "Type": "Refined Sunflower Oil",
+      "Shelf Life": "12 Months",
+      "Storage": "Store away from heat and direct sunlight"
+    },
+    "ingredients": [
+      "Refined Sunflower Oil",
+      "Vitamin A",
+      "Vitamin D",
+      "Antioxidants (E319)"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "prod-7",
+    "name": "Whole Wheat Sharbati Atta",
+    "brand": "Aashirvaad",
+    "category": "grocery",
+    "price": 270,
+    "originalPrice": 320,
+    "discount": 15,
+    "rating": 4.8,
+    "reviewsCount": 512,
+    "weight": "5 kg",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80",
+    "description": "Made from premium Sharbati wheat grains from Madhya Pradesh. Grinded using traditional chakki process to ensure rotis stay soft for longer.",
+    "specifications": {
+      "Origin": "Madhya Pradesh, India",
+      "Wheat Type": "100% Sharbati Wheat",
+      "Shelf Life": "3 Months",
+      "Storage": "Keep in dry, cool conditions"
+    },
+    "ingredients": [
+      "100% Whole Wheat grains"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "prod-8",
+    "name": "Unpolished Toor Dal (Arhar)",
+    "brand": "Tata Sampann",
+    "category": "grocery",
+    "price": 165,
+    "originalPrice": 195,
+    "discount": 15,
+    "rating": 4.6,
+    "reviewsCount": 189,
+    "weight": "1 kg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBqv_zlMQ_ATgZi40T5G3nXFNhGQ37YQ1Uh7ZhEpwz-g&s=10",
+    "description": "Unpolished and naturally processed Toor Dal. High in dietary fiber and protein. Cooks evenly and matches traditional tastes.",
+    "specifications": {
+      "Type": "Unpolished Pulses",
+      "Shelf Life": "12 Months",
+      "Storage": "Airtight storage recommended"
+    },
+    "ingredients": [
+      "Toor Dal (Arhar)"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": true,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "dairy-milk",
+    "name": "Pure Cow Milk",
+    "brand": "Amul",
+    "category": "dairy",
+    "price": 66,
+    "originalPrice": 70,
+    "discount": 5,
+    "rating": 4.7,
+    "reviewsCount": 890,
+    "weight": "1 L",
+    "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=600&q=80",
+    "description": "Fresh and pasteurized cow milk, packed with nutrients and calcium. Ideal for daily tea, coffee, breakfast cereal, or kids' nutrition.",
+    "specifications": {
+      "Fat Content": "3.5% minimum",
+      "SNF Content": "8.5% minimum",
+      "Shelf Life": "2 Days (Keep refrigerated)",
+      "Storage": "Refrigerate below 4°C"
+    },
+    "ingredients": [
+      "Pasteurized Cow Milk"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "dairy-butter",
+    "name": "Salted Butter Block",
+    "brand": "Amul",
+    "category": "dairy",
+    "price": 275,
+    "originalPrice": 290,
+    "discount": 5,
+    "rating": 4.9,
+    "reviewsCount": 1205,
+    "weight": "500 g",
+    "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=600&q=80",
+    "description": "The classic, beloved pasteurized salted butter. Perfect for breakfast spreads, baking cakes, cookies, and gourmet cooking.",
+    "specifications": {
+      "Type": "Salted Butter",
+      "Shelf Life": "12 Months",
+      "Storage": "Keep refrigerated"
+    },
+    "ingredients": [
+      "Butter Fat",
+      "Common Salt",
+      "Milk Solids"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "dairy-cheese",
+    "name": "Classic Cheese Slices",
+    "brand": "Amul",
+    "category": "dairy",
+    "price": 140,
+    "originalPrice": 150,
+    "discount": 6,
+    "rating": 4.8,
+    "reviewsCount": 1820,
+    "weight": "200 g (10 Slices)",
+    "image": "https://images.unsplash.com/photo-1486299267070-8382e214434b?auto=format&fit=crop&w=600&q=80",
+    "description": "Rich milk-based cheese slices. Melts perfectly on burgers, toasts, and hot grilled sandwiches.",
+    "specifications": {
+      "Type": "Processed Cheese Slices",
+      "Shelf Life": "6 Months",
+      "Storage": "Refrigerate below 4°C"
+    },
+    "ingredients": [
+      "Cheese",
+      "Milk Solids",
+      "Common Salt",
+      "Water"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "dairy-curd",
+    "name": "Amul Masti Fresh Curd",
+    "brand": "Amul",
+    "category": "dairy",
+    "price": 32,
+    "originalPrice": 35,
+    "discount": 8,
+    "rating": 4.8,
+    "reviewsCount": 1600,
+    "weight": "400 g",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80",
+    "description": "Thick, creamy, and pasteurized fresh dahi. Prepared from standard milk, perfect with meals or for making raita.",
+    "specifications": {
+      "Fat Content": "3.0% minimum",
+      "Shelf Life": "7 Days",
+      "Storage": "Refrigerate below 4°C"
+    },
+    "ingredients": [
+      "Pasteurized Milk solids",
+      "Active Lactic Cultures"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "dairy-paneer",
+    "name": "Fresh Paneer Block",
+    "brand": "Amul",
+    "category": "dairy",
+    "price": 95,
+    "originalPrice": 110,
+    "discount": 13,
+    "rating": 4.8,
+    "reviewsCount": 1950,
+    "weight": "200 g",
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80",
+    "description": "Extremely soft and moist vacuum-packed fresh paneer. High protein vegetarian staple, perfect for subzis, curries, and tikka grills.",
+    "specifications": {
+      "Type": "Fresh Cottage Cheese",
+      "Shelf Life": "10 Days",
+      "Storage": "Keep refrigerated below 4°C"
+    },
+    "ingredients": [
+      "Milk Solids",
+      "Coagulants (Citric Acid)"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "dairy-ghee",
+    "name": "Svasti Pure Cow Ghee",
+    "brand": "Aashirvaad",
+    "category": "dairy",
+    "price": 680,
+    "originalPrice": 720,
+    "discount": 5,
+    "rating": 4.9,
+    "reviewsCount": 3100,
+    "weight": "1 L",
+    "image": "https://images.unsplash.com/photo-1627998797034-754d92ee2be1?auto=format&fit=crop&w=600&q=80",
+    "description": "Pure cow ghee made using a special slow-cook process. Golden granular texture with a rich traditional aroma that enhances every dish.",
+    "specifications": {
+      "Process": "Slow Cooked (Granular)",
+      "Shelf Life": "9 Months",
+      "Storage": "Store in airtight jar in dry place"
+    },
+    "ingredients": [
+      "100% Clarified Butter Fat from Cow Milk"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "dairy-yogurt",
+    "name": "Alphonso Mango Greek Yogurt",
+    "brand": "Epigamia",
+    "category": "dairy",
+    "price": 55,
+    "originalPrice": 60,
+    "discount": 8,
+    "rating": 4.8,
+    "reviewsCount": 390,
+    "weight": "120 g",
+    "image": "https://images.unsplash.com/photo-1571244856353-fb5291b5c6df?auto=format&fit=crop&w=600&q=80",
+    "description": "Delicious Greek yogurt layered with real Alphonso mango pulp. High protein and low-fat healthy snack.",
+    "specifications": {
+      "Type": "Flavoured Greek Yogurt",
+      "Shelf Life": "15 Days",
+      "Storage": "Refrigeration mandatory"
+    },
+    "ingredients": [
+      "Milk Solids",
+      "Mango Pulp Prep",
+      "Active Cultures"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": true,
+    "seasonal": "Summer"
+  },
+  {
+    "id": "dairy-buttermilk",
+    "name": "Amul Masti Spiced Buttermilk",
+    "brand": "Amul",
+    "category": "dairy",
+    "price": 14,
+    "originalPrice": 15,
+    "discount": 6,
+    "rating": 4.7,
+    "reviewsCount": 1850,
+    "weight": "200 ml",
+    "image": "https://images.unsplash.com/photo-1553787499-6f9133860278?auto=format&fit=crop&w=600&q=80",
+    "description": "Refreshing spiced buttermilk (Chaas). Infused with black salt, ginger, cumin, coriander, and mint. Perfect digestion aid.",
+    "specifications": {
+      "Flavor": "Masala Spiced",
+      "Shelf Life": "6 Months (UHT Pack)",
+      "Storage": "Serve chilled"
+    },
+    "ingredients": [
+      "Toned Milk Curd",
+      "Water",
+      "Common Salt",
+      "Spices Extracts"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "Summer"
+  },
+  {
+    "id": "dairy-cream",
+    "name": "Amul Fresh Cream 25% Fat",
+    "brand": "Amul",
+    "category": "dairy",
+    "price": 64,
+    "originalPrice": 68,
+    "discount": 5,
+    "rating": 4.7,
+    "reviewsCount": 1100,
+    "weight": "250 ml",
+    "image": "https://images.unsplash.com/photo-1528620963387-d24aa508218d?auto=format&fit=crop&w=600&q=80",
+    "description": "Low fat fresh cream processed for long shelf-life. Makes home-made curries, gravies, and fruit salads extremely smooth and rich.",
+    "specifications": {
+      "Fat Content": "25% minimum",
+      "Shelf Life": "120 Days (Sterilized UHT)",
+      "Storage": "Refrigerate after opening"
+    },
+    "ingredients": [
+      "Fresh Cow Milk Solids"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "dairy-flavoured",
+    "name": "Amul Kool Kesar Flavoured Milk",
+    "brand": "Amul",
+    "category": "dairy",
+    "price": 28,
+    "originalPrice": 30,
+    "discount": 6,
+    "rating": 4.6,
+    "reviewsCount": 980,
+    "weight": "200 ml",
+    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80",
+    "description": "Deliciously refreshing kesar (saffron) flavoured milk bottle. Served best chilled for immediate energy boost.",
+    "specifications": {
+      "Flavor": "Kesar (Saffron)",
+      "Shelf Life": "180 Days",
+      "Storage": "Store in cool dry place"
+    },
+    "ingredients": [
+      "Double Toned Milk",
+      "Sugar",
+      "Saffron Extracts"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "Summer"
+  },
+  {
+    "id": "snack-chips",
+    "name": "Classic Potato Chips",
+    "brand": "Lays",
+    "category": "snacks",
+    "price": 40,
+    "originalPrice": 50,
+    "discount": 20,
+    "rating": 4.6,
+    "reviewsCount": 421,
+    "weight": "100 g",
+    "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=600&q=80",
+    "description": "Crispy and light potato chips seasoned with fine salt. Perfect crunchy companion for party snacks or tea-time.",
+    "specifications": {
+      "Pack Type": "Pouch",
+      "Shelf Life": "6 Months",
+      "Storage": "Keep in a cool, dry airtight place"
+    },
+    "ingredients": [
+      "Potato",
+      "Edible Vegetable Oil",
+      "Salt"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "snack-popcorn",
+    "name": "Golden Butter Popcorn",
+    "brand": "Act II",
+    "category": "snacks",
+    "price": 60,
+    "originalPrice": 80,
+    "discount": 25,
+    "rating": 4.5,
+    "reviewsCount": 184,
+    "weight": "150 g",
+    "image": "https://images.unsplash.com/photo-1578849278619-e73505e9610f?auto=format&fit=crop&w=600&q=80",
+    "description": "Crisp and fluffy hot popcorn flavored with rich butter. Perfect for movie nights.",
+    "specifications": {
+      "Type": "Butter Popcorn",
+      "Shelf Life": "12 Months",
+      "Storage": "Store in a cool dry place"
+    },
+    "ingredients": [
+      "Popping Corn",
+      "Edible Vegetable Fat",
+      "Iodized Salt"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "snack-salted-biscuits",
+    "name": "Monaco Salted Biscuits",
+    "brand": "Britannia",
+    "category": "snacks",
+    "price": 28,
+    "originalPrice": 30,
+    "discount": 6,
+    "rating": 4.4,
+    "reviewsCount": 350,
+    "weight": "200 g",
+    "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80",
+    "description": "Crispy and light biscuits with a salty touch. Perfect for topping with cheese, veggies, or eating plain with tea.",
+    "specifications": {
+      "Type": "Salted Crackers",
+      "Shelf Life": "6 Months",
+      "Storage": "Keep in an airtight jar"
+    },
+    "ingredients": [
+      "Wheat Flour",
+      "Vegetable Fat",
+      "Salt",
+      "Raising Agents"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "snack-cookies",
+    "name": "Choco Chip Gourmet Cookies",
+    "brand": "Sunfeast",
+    "category": "snacks",
+    "price": 85,
+    "originalPrice": 100,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewsCount": 240,
+    "weight": "150 g",
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80",
+    "description": "Rich cookies loaded with real dark chocolate chips. Perfectly baked to a golden crunch, melts in your mouth.",
+    "specifications": {
+      "Flavour": "Chocolate Chip",
+      "Shelf Life": "9 Months",
+      "Storage": "Store in an airtight container"
+    },
+    "ingredients": [
+      "Wheat Flour",
+      "Chocolate Chips",
+      "Sugar",
+      "Butter"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": true,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "snack-peanuts",
+    "name": "Classic Roasted Peanuts",
+    "brand": "Haldiram's",
+    "category": "snacks",
+    "price": 72,
+    "originalPrice": 80,
+    "discount": 10,
+    "rating": 4.5,
+    "reviewsCount": 160,
+    "weight": "200 g",
+    "image": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?auto=format&fit=crop&w=600&q=80",
+    "description": "Crunchy, slowly dry-roasted peanuts with a dash of fine salt. Ideal healthy protein-rich snack.",
+    "specifications": {
+      "Type": "Roasted Peanuts",
+      "Shelf Life": "6 Months",
+      "Storage": "Airtight dry storage"
+    },
+    "ingredients": [
+      "Peanuts",
+      "Common Salt"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "snack-mixture",
+    "name": "Kashmiri Mixture",
+    "brand": "Haldiram's",
+    "category": "snacks",
+    "price": 95,
+    "originalPrice": 110,
+    "discount": 13,
+    "rating": 4.8,
+    "reviewsCount": 420,
+    "weight": "150 g",
+    "image": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=600&q=80",
+    "description": "A delicious combination of split green gram, potato sticks, cashews, and traditional Indian spices.",
+    "specifications": {
+      "Type": "Namkeen / Savory Mixture",
+      "Shelf Life": "6 Months",
+      "Storage": "Store in dry place"
+    },
+    "ingredients": [
+      "Moth Flour",
+      "Cashew Nuts",
+      "Potato",
+      "Spices and Condiments"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "snack-banana-chips",
+    "name": "Kerala Banana Chips",
+    "brand": "Beyond Snack",
+    "category": "snacks",
+    "price": 85,
+    "originalPrice": 100,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewsCount": 290,
+    "weight": "150 g",
+    "image": "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?auto=format&fit=crop&w=600&q=80",
+    "description": "Traditional crispy banana chips prepared from raw Nendran bananas in pure coconut oil.",
+    "specifications": {
+      "Flavor": "Original Salted",
+      "Shelf Life": "4 Months",
+      "Storage": "Store in a cool dry place"
+    },
+    "ingredients": [
+      "Raw Banana",
+      "Pure Coconut Oil",
+      "Salt"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": true,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "snack-masala-peanuts",
+    "name": "Spicy Masala Peanuts",
+    "brand": "Haldiram's",
+    "category": "snacks",
+    "price": 45,
+    "originalPrice": 50,
+    "discount": 10,
+    "rating": 4.6,
+    "reviewsCount": 180,
+    "weight": "150 g",
+    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80",
+    "description": "Tasty peanuts coated with chickpea flour batter and a tangy, spicy masala blend, fried to a crispy texture.",
+    "specifications": {
+      "Type": "Spiced Fried Peanuts",
+      "Shelf Life": "6 Months",
+      "Storage": "Keep in airtight container"
+    },
+    "ingredients": [
+      "Peanuts",
+      "Gram Flour (Besan)",
+      "Red Chilli Powder",
+      "Amchur"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "snack-murukku",
+    "name": "South Indian Murukku",
+    "brand": "Grand Sweets",
+    "category": "snacks",
+    "price": 60,
+    "originalPrice": 75,
+    "discount": 20,
+    "rating": 4.7,
+    "reviewsCount": 210,
+    "weight": "200 g",
+    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+    "description": "Traditional South Indian crunchy murukku seasoned with butter and sesame seeds. Sourced fresh.",
+    "specifications": {
+      "Type": "Rice Flour Snack",
+      "Shelf Life": "3 Months",
+      "Storage": "Keep dry and airtight"
+    },
+    "ingredients": [
+      "Rice Flour",
+      "Urad Dal Flour",
+      "White Sesame",
+      "Butter"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "snack-chocolate-bar",
+    "name": "Dairy Milk Chocolate",
+    "brand": "Cadbury",
+    "category": "snacks",
+    "price": 70,
+    "originalPrice": 80,
+    "discount": 12,
+    "rating": 4.9,
+    "reviewsCount": 920,
+    "weight": "80 g",
+    "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=600&q=80",
+    "description": "The classic, smooth, and creamy milk chocolate bar made with the goodness of real milk cocoa.",
+    "specifications": {
+      "Flavor": "Milk Chocolate",
+      "Shelf Life": "12 Months",
+      "Storage": "Store in a cool, dry place"
+    },
+    "ingredients": [
+      "Sugar",
+      "Milk Solids",
+      "Cocoa Butter",
+      "Cocoa Solids"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bev-coke",
+    "name": "Coca-Cola",
+    "brand": "Coca-Cola",
+    "category": "beverages",
+    "subCategory": "Soft Drinks",
+    "price": 40,
+    "originalPrice": 45,
+    "discount": 11,
+    "rating": 4.6,
+    "reviewsCount": 890,
+    "weight": "500 ml",
+    "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=600&q=80",
+    "description": "Refreshingly cold classic Coca-Cola soda. Best served chilled with ice.",
+    "specifications": {
+      "Type": "Carbonated Soft Drink",
+      "Shelf Life": "6 Months",
+      "Storage": "Store in cool dry place, keep away from direct sunlight"
+    },
+    "ingredients": [
+      "Carbonated Water",
+      "Sugar",
+      "Acidity Regulator",
+      "Caffeine"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bev-pepsi",
+    "name": "Pepsi",
+    "brand": "Pepsi",
+    "category": "beverages",
+    "subCategory": "Soft Drinks",
+    "price": 38,
+    "originalPrice": 45,
+    "discount": 15,
+    "rating": 4.5,
+    "reviewsCount": 780,
+    "weight": "500 ml",
+    "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?auto=format&fit=crop&w=600&q=80",
+    "description": "Classic carbonated Pepsi soft drink. Delivers a refreshing bold taste.",
+    "specifications": {
+      "Type": "Carbonated Soft Drink",
+      "Shelf Life": "6 Months",
+      "Storage": "Store in cool dry place"
+    },
+    "ingredients": [
+      "Carbonated Water",
+      "Sugar",
+      "Acidity Regulator",
+      "Caffeine"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bev-real-juice",
+    "name": "Real Fruit Juice",
+    "brand": "Real",
+    "category": "beverages",
+    "subCategory": "Juices",
+    "price": 110,
+    "originalPrice": 125,
+    "discount": 12,
+    "rating": 4.4,
+    "reviewsCount": 420,
+    "weight": "1 L",
+    "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=600&q=80",
+    "description": "Premium pasteurized fruit juice, packed with goodness of natural vitamins.",
+    "specifications": {
+      "Type": "Fruit Juice",
+      "Shelf Life": "9 Months",
+      "Storage": "Refrigerate after opening"
+    },
+    "ingredients": [
+      "Water",
+      "Fruit Concentrate",
+      "Sugar",
+      "Vitamin C"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bev-mixed-juice",
+    "name": "Mixed Fruit Juice",
+    "brand": "Real",
+    "category": "beverages",
+    "subCategory": "Juices",
+    "price": 115,
+    "originalPrice": 130,
+    "discount": 11,
+    "rating": 4.5,
+    "reviewsCount": 380,
+    "weight": "1 L",
+    "image": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&w=600&q=80",
+    "description": "Delightful blend of chosen delicious fruits. Rich in fiber and essential vitamins.",
+    "specifications": {
+      "Type": "Mixed Fruit Juice",
+      "Shelf Life": "9 Months",
+      "Storage": "Refrigerate after opening"
+    },
+    "ingredients": [
+      "Water",
+      "Mixed Fruit Concentrates",
+      "Sugar",
+      "Acidity Regulator"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bev-mango-juice",
+    "name": "Mango Juice",
+    "brand": "Maaza",
+    "category": "beverages",
+    "subCategory": "Juices",
+    "price": 120,
+    "originalPrice": 140,
+    "discount": 14,
+    "rating": 4.5,
+    "reviewsCount": 910,
+    "weight": "1 L",
+    "image": "https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?auto=format&fit=crop&w=600&q=80",
+    "description": "Delectable Alphonso Mango pulp juice. Thick, sweet, and perfect for summers.",
+    "specifications": {
+      "Type": "Fruit Drink",
+      "Shelf Life": "6 Months",
+      "Storage": "Serve chilled"
+    },
+    "ingredients": [
+      "Water",
+      "Mango Pulp (19.5%)",
+      "Sugar",
+      "Acidity Regulator"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "Summer"
+  },
+  {
+    "id": "bev-lemon",
+    "name": "Lemon Drink",
+    "brand": "Limca",
+    "category": "beverages",
+    "subCategory": "Soft Drinks",
+    "price": 38,
+    "originalPrice": 45,
+    "discount": 15,
+    "rating": 4.3,
+    "reviewsCount": 260,
+    "weight": "500 ml",
+    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80",
+    "description": "Fizzy lime and lemon drink. The ultimate thirst quencher with a citrus kick.",
+    "specifications": {
+      "Type": "Carbonated Lime Drink",
+      "Shelf Life": "5 Months",
+      "Storage": "Serve ice cold"
+    },
+    "ingredients": [
+      "Carbonated Water",
+      "Sugar",
+      "Lemon Juice Concentrate",
+      "Acidity Regulator"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": false,
+    "seasonal": "Summer"
+  },
+  {
+    "id": "bev-sprite",
+    "name": "Sprite",
+    "brand": "Sprite",
+    "category": "beverages",
+    "subCategory": "Soft Drinks",
+    "price": 40,
+    "originalPrice": 45,
+    "discount": 11,
+    "rating": 4.6,
+    "reviewsCount": 680,
+    "weight": "500 ml",
+    "image": "https://images.unsplash.com/photo-1625772290748-160b2a603897?auto=format&fit=crop&w=600&q=80",
+    "description": "Refreshing clear lemon-lime sparkling soft drink. Crisp, clean taste.",
+    "specifications": {
+      "Type": "Carbonated Soft Drink",
+      "Shelf Life": "6 Months",
+      "Storage": "Store in a cool dry place"
+    },
+    "ingredients": [
+      "Carbonated Water",
+      "Sugar",
+      "Acidity Regulators"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bev-water",
+    "name": "Packaged Drinking Water",
+    "brand": "Kinley",
+    "category": "beverages",
+    "subCategory": "Water",
+    "price": 20,
+    "originalPrice": 20,
+    "discount": 0,
+    "rating": 4.8,
+    "reviewsCount": 1890,
+    "weight": "1 L",
+    "image": "https://images.unsplash.com/photo-1608889175123-8ec330b86f84?auto=format&fit=crop&w=600&q=80",
+    "description": "Purified water with added minerals. Safe, crisp, and refreshing drinking water.",
+    "specifications": {
+      "Type": "Purified Mineral Water",
+      "Shelf Life": "12 Months",
+      "Storage": "Keep in clean, hygienic place"
+    },
+    "ingredients": [
+      "Purified Water",
+      "Magnesium Sulphate",
+      "Potassium Bicarbonate"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bev-energy",
+    "name": "Energy Drink",
+    "brand": "Red Bull",
+    "category": "beverages",
+    "subCategory": "Energy Drinks",
+    "price": 115,
+    "originalPrice": 125,
+    "discount": 8,
+    "rating": 4.7,
+    "reviewsCount": 540,
+    "weight": "250 ml",
+    "image": "https://images.unsplash.com/photo-1622543956221-937292c842b4?auto=format&fit=crop&w=600&q=80",
+    "description": "Functional energy drink formulated to vitalize body and mind. High caffeine.",
+    "specifications": {
+      "Type": "Energy Drink Can",
+      "Shelf Life": "12 Months",
+      "Storage": "Serve chilled"
+    },
+    "ingredients": [
+      "Carbonated Water",
+      "Sucrose",
+      "Glucose",
+      "Caffeine",
+      "Taurine"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bev-coffee",
+    "name": "Cold Coffee",
+    "brand": "Nescafe",
+    "category": "beverages",
+    "subCategory": "Cold Coffee",
+    "price": 60,
+    "originalPrice": 65,
+    "discount": 7,
+    "rating": 4.7,
+    "reviewsCount": 490,
+    "weight": "180 ml",
+    "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80",
+    "description": "Creamy, rich ready-to-drink cold coffee. Crafted with premium milk and coffee blend.",
+    "specifications": {
+      "Type": "Milk Beverage",
+      "Shelf Life": "6 Months",
+      "Storage": "Serve cold"
+    },
+    "ingredients": [
+      "Double Toned Milk",
+      "Sugar",
+      "Coffee Solids"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "frozen-french-fries",
+    "name": "Frozen French Fries",
+    "brand": "McCain",
+    "category": "frozen-foods",
+    "price": 150,
+    "originalPrice": 180,
+    "discount": 17,
+    "rating": 4.5,
+    "reviewsCount": 420,
+    "weight": "500 g",
+    "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80",
+    "description": "Premium quality golden French fries. Crispy on the outside, soft on the inside. Ready to fry or bake.",
+    "specifications": {
+      "Type": "Frozen Potato Fries",
+      "Shelf Life": "18 Months",
+      "Storage": "Keep frozen at -18°C"
+    },
+    "ingredients": [
+      "Potato",
+      "Palm Oil"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "frozen-mixed-vegetables",
+    "name": "Frozen Mixed Vegetables",
+    "brand": "Safal",
+    "category": "frozen-foods",
+    "price": 90,
+    "originalPrice": 110,
+    "discount": 18,
+    "rating": 4.4,
+    "reviewsCount": 210,
+    "weight": "500 g",
+    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=600&q=80",
+    "description": "Healthy mix of frozen green peas, carrots, sweet corn, and green beans frozen at peak freshness.",
+    "specifications": {
+      "Type": "Mixed Vegetables",
+      "Shelf Life": "12 Months",
+      "Storage": "Keep frozen at -18°C"
+    },
+    "ingredients": [
+      "Green Peas",
+      "Carrot",
+      "Sweet Corn",
+      "Green Beans"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "frozen-veg-momos",
+    "name": "Frozen Veg Momos",
+    "brand": "Prasuma",
+    "category": "frozen-foods",
+    "price": 175,
+    "originalPrice": 220,
+    "discount": 20,
+    "rating": 4.6,
+    "reviewsCount": 380,
+    "weight": "240 g (10 Pieces)",
+    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80",
+    "description": "Delightful thin wrapper vegetable momos stuffed with crunchy cabbage, carrot, and spring onion. Ready in 2 minutes.",
+    "specifications": {
+      "Type": "Veg Dumplings",
+      "Shelf Life": "9 Months",
+      "Storage": "Keep frozen at -18°C"
+    },
+    "ingredients": [
+      "Wheat Flour",
+      "Cabbage",
+      "Carrot",
+      "Spring Onion",
+      "Spices"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": true,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "frozen-pizza",
+    "name": "Frozen Pizza",
+    "brand": "ITC Master Chef",
+    "category": "frozen-foods",
+    "price": 199,
+    "originalPrice": 240,
+    "discount": 17,
+    "rating": 4.5,
+    "reviewsCount": 160,
+    "weight": "320 g",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+    "description": "Ready to bake cheese burst double cheese margherita pizza. Classic taste.",
+    "specifications": {
+      "Type": "Frozen Baked Pizza",
+      "Shelf Life": "6 Months",
+      "Storage": "Keep frozen at -18°C"
+    },
+    "ingredients": [
+      "Pizza Crust",
+      "Mozzarella Cheese",
+      "Tomato Sauce",
+      "Herbs"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "frozen-green-peas",
+    "name": "Frozen Green Peas",
+    "brand": "Safal",
+    "category": "frozen-foods",
+    "price": 85,
+    "originalPrice": 110,
+    "discount": 22,
+    "rating": 4.5,
+    "reviewsCount": 211,
+    "weight": "500 g",
+    "image": "https://images.unsplash.com/photo-1587593810167-a84920ea0781?auto=format&fit=crop&w=600&q=80",
+    "description": "Sweet, tender green peas frozen at peak freshness. Safely stored without preservatives. Excellent for cooking Matar Paneer, Pulao, or soups.",
+    "specifications": {
+      "Storage Temperature": "-18°C or below",
+      "Shelf Life": "12 Months",
+      "Type": "Quick Frozen Peas"
+    },
+    "ingredients": [
+      "100% Green Peas"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bakery-bread",
+    "name": "Fresh Bread",
+    "brand": "Harvest Gold",
+    "category": "bakery",
+    "price": 45,
+    "originalPrice": 55,
+    "discount": 18,
+    "rating": 4.6,
+    "reviewsCount": 612,
+    "weight": "400g",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80",
+    "description": "Soft and fresh bakery bread. Perfect for daily sandwiches, toast, or French toast.",
+    "specifications": {
+      "Type": "Atta Brown Bread",
+      "Shelf Life": "5 Days",
+      "Storage": "Store in dry place, tie package after opening"
+    },
+    "ingredients": [
+      "Whole Wheat Flour",
+      "Yeast",
+      "Salt",
+      "Water"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bakery-croissant",
+    "name": "Croissant",
+    "brand": "Elite Bakery",
+    "category": "bakery",
+    "price": 90,
+    "originalPrice": 120,
+    "discount": 25,
+    "rating": 4.6,
+    "reviewsCount": 89,
+    "weight": "2 Pack",
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80",
+    "description": "Flaky, buttery croissants rolled with premium dark Belgian chocolate cream inside. Baked fresh daily.",
+    "specifications": {
+      "Flavour": "Chocolate Butter",
+      "Shelf Life": "3 Days",
+      "Storage": "Warm slightly before consuming"
+    },
+    "ingredients": [
+      "Wheat Flour",
+      "Butter",
+      "Chocolate paste",
+      "Sugar"
+    ],
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNew": true,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bakery-muffin",
+    "name": "Chocolate Muffin",
+    "brand": "Elite Bakery",
+    "category": "bakery",
+    "price": 50,
+    "originalPrice": 60,
+    "discount": 16,
+    "rating": 4.5,
+    "reviewsCount": 112,
+    "weight": "1 Piece",
+    "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?auto=format&fit=crop&w=600&q=80",
+    "description": "Indulgently rich muffin filled with dark chocolate chips and a soft center. Perfectly sweet companion.",
+    "specifications": {
+      "Type": "Chocolate Muffin",
+      "Shelf Life": "4 Days",
+      "Storage": "Store in a cool dry place"
+    },
+    "ingredients": [
+      "Wheat Flour",
+      "Cocoa Powder",
+      "Chocolate Chips",
+      "Sugar",
+      "Butter"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bakery-cake",
+    "name": "Black Forest Cake",
+    "brand": "Grand Bakery",
+    "category": "bakery",
+    "price": 399,
+    "originalPrice": 499,
+    "discount": 20,
+    "rating": 4.8,
+    "reviewsCount": 204,
+    "weight": "500g",
+    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80",
+    "description": "Luscious Black Forest cake layered with whipped cream, cherries, and chocolate shavings.",
+    "specifications": {
+      "Type": "Fresh Cream Cake",
+      "Shelf Life": "3 Days",
+      "Storage": "Keep refrigerated at all times"
+    },
+    "ingredients": [
+      "Wheat Flour",
+      "Cocoa Powder",
+      "Whipped Cream",
+      "Cherries",
+      "Sugar"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bakery-cookies",
+    "name": "Chocolate Cookies",
+    "brand": "Sunfeast",
+    "category": "bakery",
+    "price": 85,
+    "originalPrice": 100,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewsCount": 168,
+    "weight": "150g",
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80",
+    "description": "Rich cookies loaded with real dark chocolate chips. Perfectly baked to a golden crunch, melts in your mouth.",
+    "specifications": {
+      "Flavour": "Chocolate Chip",
+      "Shelf Life": "9 Months",
+      "Storage": "Store in an airtight container"
+    },
+    "ingredients": [
+      "Wheat Flour",
+      "Chocolate Chips",
+      "Sugar",
+      "Butter"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": true,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "pc-shampoo",
+    "name": "Shampoo",
+    "brand": "Himalaya",
+    "category": "personal-care",
+    "price": 180,
+    "originalPrice": 220,
+    "discount": 18,
+    "rating": 4.5,
+    "reviewsCount": 312,
+    "weight": "200 ml",
+    "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=600&q=80",
+    "description": "Enriched with aloe vera and sesame oil. Gentle cleansing action moisturizes dry hair, leaving it soft, silky, and clean.",
+    "specifications": {
+      "Hair Type": "All Hair Types",
+      "Shelf Life": "36 Months",
+      "Type": "Sulfate Free"
+    },
+    "ingredients": [
+      "Aloe Vera Extracts",
+      "Sesame Seed Oil"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "pc-toothpaste",
+    "name": "Toothpaste",
+    "brand": "Colgate",
+    "category": "personal-care",
+    "price": 95,
+    "originalPrice": 110,
+    "discount": 13,
+    "rating": 4.6,
+    "reviewsCount": 890,
+    "weight": "150 g",
+    "image": "https://images.unsplash.com/photo-1559599101-f09722fb4948?auto=format&fit=crop&w=600&q=80",
+    "description": "Advanced cooling crystals toothpaste for long lasting fresh breath. Fights cavities and keeps gums healthy.",
+    "specifications": {
+      "Flavour": "Fresh Mint",
+      "Shelf Life": "24 Months",
+      "Certification": "IDA Approved"
+    },
+    "ingredients": [
+      "Fluoride",
+      "Silica",
+      "Mint Flavor"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "pc-soap",
+    "name": "Bath Soap",
+    "brand": "Dove",
+    "category": "personal-care",
+    "price": 140,
+    "originalPrice": 165,
+    "discount": 15,
+    "rating": 4.8,
+    "reviewsCount": 1200,
+    "weight": "3x125 g",
+    "image": "https://images.unsplash.com/photo-1607006342411-91f11f05781a?auto=format&fit=crop&w=600&q=80",
+    "description": "Luxurious moisturizing bath soap formulated with 1/4 moisturizing cream. Leaves skin soft and glowing.",
+    "specifications": {
+      "Skin Type": "Dry & Sensitive",
+      "Shelf Life": "24 Months",
+      "Pack": "Value Pack of 3"
+    },
+    "ingredients": [
+      "Moisturizing Cream",
+      "Sodium Lauroyl Isethionate"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "pc-toothbrush",
+    "name": "Toothbrush",
+    "brand": "Oral-B",
+    "category": "personal-care",
+    "price": 80,
+    "originalPrice": 100,
+    "discount": 20,
+    "rating": 4.5,
+    "reviewsCount": 350,
+    "weight": "4 Pack",
+    "image": "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=600&q=80",
+    "description": "Super soft criss-cross bristles toothbrush. Efficiently plaque removal while being extremely gentle on gums.",
+    "specifications": {
+      "Bristle Type": "Super Soft",
+      "Pack Size": "4 brushes",
+      "Storage": "Rinse and keep dry"
+    },
+    "ingredients": [
+      "Nylon Bristles",
+      "Plastic Handle"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "pc-lotion",
+    "name": "Body Lotion",
+    "brand": "Nivea",
+    "category": "personal-care",
+    "price": 240,
+    "originalPrice": 299,
+    "discount": 19,
+    "rating": 4.7,
+    "reviewsCount": 980,
+    "weight": "400 ml",
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
+    "description": "Deep moisture body lotion enriched with almond oil. Provides 48 hours dry skin repair nourishment.",
+    "specifications": {
+      "Skin Type": "Dry Skin",
+      "Shelf Life": "30 Months",
+      "Moisture Duration": "48 Hours"
+    },
+    "ingredients": [
+      "Purified Water",
+      "Almond Oil",
+      "Glycerin"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "Winter"
+  },
+  {
+    "id": "hc-floor",
+    "name": "Floor Cleaner",
+    "brand": "Lysol",
+    "category": "home-cleaning",
+    "price": 149,
+    "originalPrice": 180,
+    "discount": 17,
+    "rating": 4.5,
+    "reviewsCount": 612,
+    "weight": "1 L",
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80",
+    "description": "Kills 99.9% of germs. Refreshes home floors with a lasting fragrance. Suitable for marble, granite, and tiles.",
+    "specifications": {
+      "Germ Protection": "99.9%",
+      "Shelf Life": "24 Months",
+      "Surfaces": "Multi-surface"
+    },
+    "ingredients": [
+      "Benzalkonium Chloride",
+      "Fragrance Oils"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "hc-dishwash",
+    "name": "Dishwashing Liquid",
+    "brand": "Vim",
+    "category": "home-cleaning",
+    "price": 99,
+    "originalPrice": 115,
+    "discount": 13,
+    "rating": 4.6,
+    "reviewsCount": 850,
+    "weight": "500 ml",
+    "image": "https://images.unsplash.com/photo-1607696342411-91f11f05781a?auto=format&fit=crop&w=600&q=80",
+    "description": "Powerful lemon grease-cutter formula. Cleans tough grease from utensils easily without leaving scratches.",
+    "specifications": {
+      "Flavour": "Lemon",
+      "Shelf Life": "24 Months",
+      "Type": "Concentrated Liquid"
+    },
+    "ingredients": [
+      "Active Surfactants",
+      "Lemon Extract",
+      "Water"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "hc-glass",
+    "name": "Glass Cleaner",
+    "brand": "Colin",
+    "category": "home-cleaning",
+    "price": 85,
+    "originalPrice": 100,
+    "discount": 15,
+    "rating": 4.5,
+    "reviewsCount": 420,
+    "weight": "500 ml",
+    "image": "https://images.unsplash.com/photo-1528740564265-530433730cd2?auto=format&fit=crop&w=600&q=80",
+    "description": "Provides shine and 2x streak-free clean for glass, mirrors, tabletops, and window panels.",
+    "specifications": {
+      "Type": "Spray Cleaner",
+      "Shelf Life": "24 Months",
+      "Suited For": "Glass and Shiny Surfaces"
+    },
+    "ingredients": [
+      "Isopropyl Alcohol",
+      "Cleaning Agents",
+      "Fragrance"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "hc-toilet",
+    "name": "Toilet Cleaner",
+    "brand": "Harpic",
+    "category": "home-cleaning",
+    "price": 120,
+    "originalPrice": 145,
+    "discount": 17,
+    "rating": 4.7,
+    "reviewsCount": 920,
+    "weight": "750 ml",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80",
+    "description": "Disinfectant toilet cleaner. Removes tough yellow stains, scaling, and kills 99.9% of germs.",
+    "specifications": {
+      "Type": "Liquid Gel",
+      "Shelf Life": "24 Months",
+      "Germ Protection": "99.9%"
+    },
+    "ingredients": [
+      "Hydrochloric Acid (10.5%)",
+      "Cationic Surfactants",
+      "Fragrance"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "hc-detergent",
+    "name": "Laundry Detergent",
+    "brand": "Surf Excel",
+    "category": "home-cleaning",
+    "price": 195,
+    "originalPrice": 240,
+    "discount": 18,
+    "rating": 4.7,
+    "reviewsCount": 789,
+    "weight": "1 L",
+    "image": "https://images.unsplash.com/photo-1610555356070-d0efb6505f4b?auto=format&fit=crop&w=600&q=80",
+    "description": "Advanced liquid detergent that dissolves rapidly in washing machines, removing tough grease or tea stains easily.",
+    "specifications": {
+      "Machine Type": "Front Load & Top Load",
+      "Shelf Life": "24 Months",
+      "Fragrance": "Fresh Comfort"
+    },
+    "ingredients": [
+      "Anionic Surfactant Blend",
+      "Stain Removing Enzymes",
+      "Perfume"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bc-diapers",
+    "name": "Baby Diapers",
+    "brand": "Pampers",
+    "category": "baby-care",
+    "price": 599,
+    "originalPrice": 799,
+    "discount": 25,
+    "rating": 4.7,
+    "reviewsCount": 380,
+    "weight": "50 Pack",
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80",
+    "description": "Ultra-absorbent pant-style diapers. Crafted with cottony soft breathable fibers to prevent diaper rashes and leakages.",
+    "specifications": {
+      "Size": "Medium (M) 7-12kg",
+      "Shelf Life": "36 Months",
+      "Fit": "Stretchable Waistband"
+    },
+    "ingredients": [
+      "Super Absorbent Polymer",
+      "Cellulose Fibers"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bc-shampoo",
+    "name": "Baby Shampoo",
+    "brand": "Johnson's",
+    "category": "baby-care",
+    "price": 199,
+    "originalPrice": 249,
+    "discount": 20,
+    "rating": 4.6,
+    "reviewsCount": 850,
+    "weight": "200 ml",
+    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=600&q=80",
+    "description": "No More Tears shampoo. Clinically proven mildness, gently cleanses fine baby hair and delicate scalp.",
+    "specifications": {
+      "Type": "No More Tears Formula",
+      "Shelf Life": "36 Months",
+      "Certification": "Pediatrician Tested"
+    },
+    "ingredients": [
+      "Purified Water",
+      "Coco-Glucoside",
+      "Citric Acid"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bc-soap",
+    "name": "Baby Soap",
+    "brand": "Johnson's",
+    "category": "baby-care",
+    "price": 75,
+    "originalPrice": 90,
+    "discount": 16,
+    "rating": 4.5,
+    "reviewsCount": 620,
+    "weight": "100 g",
+    "image": "https://images.unsplash.com/photo-1607006342411-91f11f05781a?auto=format&fit=crop&w=600&q=80",
+    "description": "Clinically proven mild baby soap bar enriched with 1/4 moisturizing baby lotion. Gentle skin cleaning.",
+    "specifications": {
+      "Skin Type": "Delicate Baby Skin",
+      "Shelf Life": "36 Months",
+      "Storage": "Keep in dry soap dish"
+    },
+    "ingredients": [
+      "Sodium Palmate",
+      "Moisturizing Baby Lotion"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bc-lotion",
+    "name": "Baby Lotion",
+    "brand": "Himalaya",
+    "category": "baby-care",
+    "price": 140,
+    "originalPrice": 165,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewsCount": 420,
+    "weight": "200 ml",
+    "image": "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=600&q=80",
+    "description": "Deep moisturizing baby lotion enriched with olive oil and almond oil. Protects skin from dryness.",
+    "specifications": {
+      "Skin Type": "Sensitive Baby Skin",
+      "Shelf Life": "24 Months",
+      "Moisture Duration": "24 Hours"
+    },
+    "ingredients": [
+      "Olive Oil Extract",
+      "Almond Oil Extract"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "bc-bottle",
+    "name": "Baby Feeding Bottle",
+    "brand": "Philips Avent",
+    "category": "baby-care",
+    "price": 320,
+    "originalPrice": 399,
+    "discount": 19,
+    "rating": 4.8,
+    "reviewsCount": 980,
+    "weight": "260 ml",
+    "image": "https://images.unsplash.com/photo-1522850959076-589c370d73ee?auto=format&fit=crop&w=600&q=80",
+    "description": "Anti-colic plastic feeding bottle with super soft silicone nipple. BPA-free material.",
+    "specifications": {
+      "Type": "Anti-Colic Feeding Bottle",
+      "Shelf Life": "Indefinite (Nipple: 3 Months)",
+      "BPA Free": "Yes"
+    },
+    "ingredients": [
+      "Polypropylene Bottle",
+      "Silicone Nipple"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "pet-dog-food",
+    "name": "Dog Food",
+    "brand": "Pedigree",
+    "category": "pet-care",
+    "price": 499,
+    "originalPrice": 599,
+    "discount": 17,
+    "rating": 4.7,
+    "reviewsCount": 395,
+    "weight": "1 kg",
+    "image": "https://images.unsplash.com/photo-1589722868904-e3579b940989?auto=format&fit=crop&w=600&q=80",
+    "description": "Nutritious dry kibble for adult dogs. Rich in proteins, calcium, and dietary fibers. Promotes shiny fur and joint health.",
+    "specifications": {
+      "Flavor": "Chicken and Vegetables",
+      "Shelf Life": "12 Months",
+      "Dog Size": "All Sizes"
+    },
+    "ingredients": [
+      "Cereal grains",
+      "Poultry meal",
+      "Soybean oil"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "pet-cat-food",
+    "name": "Cat Food",
+    "brand": "Whiskas",
+    "category": "pet-care",
+    "price": 380,
+    "originalPrice": 450,
+    "discount": 15,
+    "rating": 4.6,
+    "reviewsCount": 240,
+    "weight": "1.1 kg",
+    "image": "https://images.unsplash.com/photo-1569591159212-b02ea8a9f239?auto=format&fit=crop&w=600&q=80",
+    "description": "Dry cat food pocket mix with real tuna flavor. Promotes healthy eyesight, shiny coat, and digestive health.",
+    "specifications": {
+      "Flavor": "Ocean Fish & Tuna",
+      "Shelf Life": "12 Months",
+      "Age Group": "Adult (1+ Years)"
+    },
+    "ingredients": [
+      "Whole Grain Cereals",
+      "Fish Meal",
+      "Poultry By-Product Meal"
+    ],
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "pet-dog-chews",
+    "name": "Dog Chew Treats",
+    "brand": "Choostix",
+    "category": "pet-care",
+    "price": 160,
+    "originalPrice": 199,
+    "discount": 19,
+    "rating": 4.5,
+    "reviewsCount": 180,
+    "weight": "450 g",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=600&q=80",
+    "description": "Premium rawhide chew sticks that promote clean teeth, healthy gums, and fresh breath by preventing plaque build-up.",
+    "specifications": {
+      "Type": "Rawhide Chews",
+      "Shelf Life": "24 Months",
+      "Flavor": "Beef & Milk"
+    },
+    "ingredients": [
+      "100% Rawhide",
+      "Natural Permitted Flavors"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "pet-cat-treats",
+    "name": "Cat Treats",
+    "brand": "Temptations",
+    "category": "pet-care",
+    "price": 120,
+    "originalPrice": 140,
+    "discount": 14,
+    "rating": 4.8,
+    "reviewsCount": 195,
+    "weight": "85 g",
+    "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=600&q=80",
+    "description": "Tasty pocket treats crunchy on the outside, soft on the inside. Delicious chicken flavor cats can't resist.",
+    "specifications": {
+      "Flavor": "Tasty Chicken",
+      "Shelf Life": "18 Months",
+      "Kcal": "Under 2 calories per treat"
+    },
+    "ingredients": [
+      "Poultry Meal",
+      "Animal Fat",
+      "Wheat Flour",
+      "Brewers Rice"
+    ],
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNew": false,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "pet-shampoo",
+    "name": "Pet Shampoo",
+    "brand": "Himalaya Pet",
+    "category": "pet-care",
+    "price": 230,
+    "originalPrice": 275,
+    "discount": 16,
+    "rating": 4.6,
+    "reviewsCount": 110,
+    "weight": "200 ml",
+    "image": "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=600&q=80",
+    "description": "Anti-dandruff and anti-itch herbal pet shampoo. Keeps pet coat shiny, clean, smelling fresh, and free from fleas.",
+    "specifications": {
+      "Type": "Herbal Pet Care",
+      "Shelf Life": "36 Months",
+      "Suited For": "Dogs and Cats"
+    },
+    "ingredients": [
+      "Neem Leaf Extract",
+      "Eucalyptus Oil Extract",
+      "Conditioning Agents"
+    ],
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNew": true,
+    "seasonal": "All-Year"
+  },
+  {
+    "id": "prod-30",
+    "name": "Stainless Steel Water Bottle",
+    "brand": "Milton",
+    "category": "kitchen-essentials",
+    "price": 350,
+    "originalPrice": 420,
+    "discount": 16,
+    "rating": 4.7,
+    "reviewsCount": 302,
+    "weight": "1 L",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&q=80",
+    "description": "Double-walled grade 304 stainless steel bottle. Keeps drinks cold for up to 12 hours and hot for 8 hours. BPA free.",
+    "specifications": {
+      "Material": "SS 304 Food Grade",
+      "Warranty": "1 Year",
+      "Features": "Leak Proof & Rust Proof"
+    },
+    "ingredients": [
+      "100% Stainless Steel"
+    ],
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNew": true,
+    "seasonal": "All-Year"
+  }
+]
