@@ -71,7 +71,7 @@ export default function Layout() {
     >
       
       {/* Header & Navigation */}
-      <Navbar onMobileMenuOpen={() => setMobileMenuOpen(true)} />
+      <Navbar mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
       
       {/* Mobile Sidebar Navigation */}
       <MobileMenu isOpen={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />

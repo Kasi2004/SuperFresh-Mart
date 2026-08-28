@@ -77,7 +77,7 @@ export default function HeroSlider({ banners = [] }) {
   };
 
   return (
-    <div className="relative w-full h-[350px] md:h-[480px] lg:h-[520px] rounded-[32px] md:rounded-[40px] overflow-hidden shadow-lg bg-slate-900">
+    <div className="relative w-full h-[520px] sm:h-[450px] md:h-[480px] lg:h-[520px] rounded-[32px] md:rounded-[40px] overflow-hidden shadow-lg bg-slate-900">
       <AnimatePresence initial={false} custom={direction} mode="wait">
         <motion.div
           key={current}
@@ -90,7 +90,7 @@ export default function HeroSlider({ banners = [] }) {
             x: { type: 'spring', stiffness: 300, damping: 30 },
             opacity: { duration: 0.2 }
           }}
-          className={`absolute inset-0 bg-gradient-to-r ${activeBanner.bgGradient} flex flex-col md:flex-row items-center justify-between p-6 md:p-12 lg:p-16 gap-6`}
+          className={`absolute inset-0 bg-gradient-to-r ${activeBanner.bgGradient} flex flex-col md:flex-row items-center justify-between p-6 sm:p-8 md:p-12 lg:p-16 gap-4 md:gap-6`}
         >
           {/* Text Area */}
           <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left text-white max-w-xl z-10">
@@ -98,7 +98,7 @@ export default function HeroSlider({ banners = [] }) {
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="text-2xl md:text-4xl lg:text-5xl font-black leading-tight tracking-tight mb-3 md:mb-4"
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black leading-tight tracking-tight mb-2 md:mb-4 text-white"
             >
               {activeBanner.title}
             </motion.h2>
@@ -106,7 +106,7 @@ export default function HeroSlider({ banners = [] }) {
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.3 }}
-              className="text-xs md:text-sm lg:text-base text-white/90 font-medium mb-6 md:mb-8 leading-relaxed max-w-lg"
+              className="text-xs md:text-sm lg:text-base text-white/90 font-medium mb-4 md:mb-8 leading-relaxed max-w-lg"
             >
               {activeBanner.subtitle}
             </motion.p>
@@ -114,11 +114,11 @@ export default function HeroSlider({ banners = [] }) {
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.4 }}
-              className="flex flex-col sm:flex-row gap-4 items-center justify-center md:justify-start w-full sm:w-auto"
+              className="flex flex-row gap-3 items-center justify-center md:justify-start w-full sm:w-auto"
             >
               <Link
                 to="/products"
-                className="w-full sm:w-auto text-center px-6 py-3 md:px-8 md:py-3.5 bg-secondary-500 hover:bg-secondary-600 active:scale-95 text-slate-900 font-extrabold rounded-2xl shadow-lg shadow-black/10 transition-all text-xs md:text-sm tracking-wider uppercase"
+                className="w-1/2 sm:w-auto text-center px-4 py-2.5 md:px-8 md:py-3.5 bg-secondary-500 hover:bg-secondary-600 active:scale-95 text-slate-900 font-extrabold rounded-2xl shadow-lg shadow-black/10 transition-all text-[11px] md:text-sm tracking-wider uppercase"
               >
                 {activeBanner.buttonText}
               </Link>
@@ -129,13 +129,13 @@ export default function HeroSlider({ banners = [] }) {
                 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleOrder}
-                className="w-full sm:w-auto text-center px-6 py-3 md:px-8 md:py-3.5 bg-white hover:bg-slate-50 active:bg-slate-100 text-slate-900 font-extrabold rounded-2xl shadow-lg transition-all text-xs md:text-sm tracking-wider uppercase focus:outline-none border border-slate-200/20 cursor-pointer"
+                className="w-1/2 sm:w-auto text-center px-4 py-2.5 md:px-8 md:py-3.5 bg-white hover:bg-slate-50 active:bg-slate-100 text-slate-900 font-extrabold rounded-2xl shadow-lg transition-all text-[11px] md:text-sm tracking-wider uppercase focus:outline-none border border-slate-200/20 cursor-pointer"
               >
                 Order Now
               </motion.button>
             </motion.div>
           </div>
-
+ 
           {/* Image Area */}
           <div className="flex-1 w-full h-1/2 md:h-full relative overflow-hidden flex items-center justify-center md:justify-end">
             <motion.img
@@ -144,7 +144,7 @@ export default function HeroSlider({ banners = [] }) {
               transition={{ delay: 0.2 }}
               src={activeBanner.image}
               alt={activeBanner.title}
-              className="w-full max-w-[320px] md:max-w-md lg:max-w-lg aspect-[4/3] object-cover rounded-3xl shadow-2xl border border-white/10"
+              className="w-full max-w-[280px] sm:max-w-[320px] md:max-w-md lg:max-w-lg aspect-[4/3] object-cover rounded-3xl shadow-2xl border border-white/10"
             />
           </div>
         </motion.div>

@@ -7,6 +7,7 @@ import HeroSlider from '../components/HeroSlider';
 import ProductCard from '../components/ProductCard';
 import CategoryCard from '../components/CategoryCard';
 import Rating from '../components/Rating';
+import PremiumHoverText from '../components/PremiumHoverText';
 
 import banners from '../data/banners.json';
 import categories from '../data/categories.json';
@@ -66,8 +67,8 @@ export default function Home() {
       <section>
         <div className="flex items-center justify-between mb-6">
           <div>
-            <h2 className="text-xl md:text-3xl font-black text-slate-800 dark:text-slate-100">
-              Shop by Category
+            <h2 className="text-xl md:text-3xl font-black text-slate-800 dark:text-slate-100 flex items-center gap-1">
+              <PremiumHoverText>Shop</PremiumHoverText> by Category
             </h2>
             <p className="text-xs md:text-sm text-slate-500 dark:text-slate-400 font-medium mt-1">
               Explore our wide variety of daily staples and organic farm produce.
@@ -91,8 +92,8 @@ export default function Home() {
       {todayDeals.length > 0 && (
         <section>
           <div className="mb-6">
-            <h2 className="text-xl md:text-3xl font-black text-slate-800 dark:text-slate-100">
-              Today's Super Deals
+            <h2 className="text-xl md:text-3xl font-black text-slate-800 dark:text-slate-100 flex items-center gap-1.5">
+              Today's Super <PremiumHoverText>Deals</PremiumHoverText>
             </h2>
             <p className="text-xs md:text-sm text-slate-500 dark:text-slate-400 font-medium mt-1">
               Save big with our highest discounted daily deals.
@@ -113,8 +114,8 @@ export default function Home() {
       {/* Featured Products */}
       <section>
         <div className="mb-6">
-          <h2 className="text-xl md:text-3xl font-black text-slate-800 dark:text-slate-100">
-            Featured Products
+          <h2 className="text-xl md:text-3xl font-black text-slate-800 dark:text-slate-100 flex items-center gap-1.5">
+            <PremiumHoverText>Featured</PremiumHoverText> Products
           </h2>
           <p className="text-xs md:text-sm text-slate-500 dark:text-slate-400 font-medium mt-1">
             Hand-picked products recommended by our store experts.
@@ -134,8 +135,8 @@ export default function Home() {
       {/* Best Sellers */}
       <section>
         <div className="mb-6">
-          <h2 className="text-xl md:text-3xl font-black text-slate-800 dark:text-slate-100">
-            Best Sellers
+          <h2 className="text-xl md:text-3xl font-black text-slate-800 dark:text-slate-100 flex items-center gap-1.5">
+            <PremiumHoverText>Best</PremiumHoverText> Sellers
           </h2>
           <p className="text-xs md:text-sm text-slate-500 dark:text-slate-400 font-medium mt-1">
             The most popular choices among families in Bangalore.

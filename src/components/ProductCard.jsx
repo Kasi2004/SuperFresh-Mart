@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaHeart, FaRegHeart, FaEye, FaShoppingBag, FaCheck } from 'react-icons/fa';
 import { useApp } from '../context/AppContext';
 import Rating from './Rating';
+import PremiumHoverText from './PremiumHoverText';
 
 const getCategoryHoverClasses = (category) => {
   if (!category) return 'hover:bg-slate-100/80 dark:hover:bg-slate-800/40 hover:border-slate-300 dark:hover:border-slate-700';
@@ -29,7 +30,12 @@ const getCategoryHoverClasses = (category) => {
 export default function ProductCard({ product, onQuickView }) {
   const { addToCart, addToWishlist, removeFromWishlist, isInWishlist } = useApp();
   const [isAdding, setIsAdding] = useState(false);
+  const [isTouch, setIsTouch] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    setIsTouch('ontouchstart' in window || navigator.maxTouchPoints > 0);
+  }, []);
 
   const wishlisted = isInWishlist(product.id);
 
@@ -60,11 +66,12 @@ export default function ProductCard({ product, onQuickView }) {
       initial={{ opacity: 0, y: 15 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-20px' }}
-      whileHover={{ 
+      whileHover={isTouch ? {} : { 
         y: -10,
         scale: 1.04,
         boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)'
       }}
+      whileTap={{ scale: 0.98 }}
       transition={{ type: 'spring', stiffness: 260, damping: 20 }}
       className={`glass-card rounded-[32px] border border-slate-100/60 dark:border-slate-800/40 p-4 flex flex-col h-full relative overflow-hidden group transition-colors duration-300 ${getCategoryHoverClasses(product.category)}`}
     >
@@ -123,7 +130,7 @@ export default function ProductCard({ product, onQuickView }) {
       {/* Card Info */}
       <div className="flex flex-col flex-grow">
         <span className="text-[10px] md:text-xs font-bold uppercase tracking-wider text-primary-600 dark:text-primary-400 mb-1">
-          {product.brand}
+          <PremiumHoverText>{product.brand}</PremiumHoverText>
         </span>
         <div
           onClick={(e) => {
@@ -131,9 +138,9 @@ export default function ProductCard({ product, onQuickView }) {
             if (onQuickView) onQuickView(product);
             else setQuickViewProduct(product);
           }}
-          className="font-bold text-sm md:text-base text-slate-800 dark:text-slate-100 hover:text-primary-500 dark:hover:text-primary-400 transition-colors leading-snug mb-1 block cursor-pointer"
+          className="font-bold text-sm md:text-base text-slate-800 dark:text-slate-100 transition-colors leading-snug mb-1 block cursor-pointer"
         >
-          {product.name}
+          <PremiumHoverText>{product.name}</PremiumHoverText>
         </div>
 
         {/* Rating and Weight row */}

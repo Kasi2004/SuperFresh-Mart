@@ -3,8 +3,10 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { FaHeart, FaShoppingBag, FaMapMarkerAlt, FaSun, FaMoon, FaPercent, FaInfoCircle, FaPhoneAlt } from 'react-icons/fa';
 import { useApp } from '../context/AppContext';
 import SearchBar from './SearchBar';
+import { motion } from 'framer-motion';
+import PremiumHoverText from './PremiumHoverText';
 
-export default function Navbar({ onMobileMenuOpen }) {
+export default function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
   const {
     theme,
     toggleTheme,
@@ -15,7 +17,8 @@ export default function Navbar({ onMobileMenuOpen }) {
     getCartCount,
     getCartTotal,
     isLoggedIn,
-    logout
+    logout,
+    showToast
   } = useApp();
 
   const navigate = useNavigate();
@@ -32,10 +35,8 @@ export default function Navbar({ onMobileMenuOpen }) {
   const cartTotal = getCartTotal();
 
   const navLinkClass = ({ isActive }) =>
-    `relative py-2 text-xs lg:text-sm font-bold transition-all hover:text-primary-500 dark:hover:text-primary-400 ${
-      isActive
-        ? 'text-primary-500 dark:text-primary-400 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary-500 after:rounded-full'
-        : 'text-slate-600 dark:text-slate-300'
+    `relative py-1 text-xs lg:text-sm font-bold transition-colors focus:outline-none ${
+      isActive ? 'text-primary-500 dark:text-primary-400' : 'text-slate-600 dark:text-slate-300'
     }`;
 
   return (
@@ -108,12 +109,23 @@ export default function Navbar({ onMobileMenuOpen }) {
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-5 xl:gap-6">
-            <NavLink to="/" className={navLinkClass}>Home</NavLink>
-            <NavLink to="/categories" className={navLinkClass}>Categories</NavLink>
-            <NavLink to="/offers" className={navLinkClass}>Offers</NavLink>
-            <NavLink to="/about" className={navLinkClass}>About</NavLink>
-            <NavLink to="/contact" className={navLinkClass}>Contact</NavLink>
+          <nav className="hidden lg:flex items-center gap-4 xl:gap-5">
+            <NavLink to="/" className={navLinkClass}>
+              {({ isActive }) => <PremiumHoverText active={isActive}>Home</PremiumHoverText>}
+            </NavLink>
+            <NavLink to="/products" className={navLinkClass}>
+              {({ isActive }) => <PremiumHoverText active={isActive}>Shop</PremiumHoverText>}
+            </NavLink>
+
+            <NavLink to="/offers" className={navLinkClass}>
+              {({ isActive }) => <PremiumHoverText active={isActive}>Offers</PremiumHoverText>}
+            </NavLink>
+            <NavLink to="/about" className={navLinkClass}>
+              {({ isActive }) => <PremiumHoverText active={isActive}>About</PremiumHoverText>}
+            </NavLink>
+            <NavLink to="/contact" className={navLinkClass}>
+              {({ isActive }) => <PremiumHoverText active={isActive}>Contact</PremiumHoverText>}
+            </NavLink>
           </nav>
 
           {/* Right Action Icons */}
@@ -168,7 +180,9 @@ export default function Navbar({ onMobileMenuOpen }) {
                 aria-label="Account Logout"
               >
                 <span className="transition-transform duration-300 group-hover:scale-115 inline-block">👤</span>
-                <span className="font-extrabold tracking-wide uppercase text-[10px] md:text-xs">Logout</span>
+                <span className="font-extrabold tracking-wide uppercase text-[10px] md:text-xs">
+                  <PremiumHoverText>Logout</PremiumHoverText>
+                </span>
               </button>
             ) : (
               <Link
@@ -177,20 +191,34 @@ export default function Navbar({ onMobileMenuOpen }) {
                 aria-label="Account Login"
               >
                 <span className="transition-transform duration-300 group-hover:scale-115 inline-block">🔐</span>
-                <span className="font-extrabold tracking-wide uppercase text-[10px] md:text-xs">Login</span>
+                <span className="font-extrabold tracking-wide uppercase text-[10px] md:text-xs">
+                  <PremiumHoverText>Login</PremiumHoverText>
+                </span>
               </Link>
             )}
 
 
             {/* Mobile Menu Toggle Button */}
             <button
-              onClick={onMobileMenuOpen}
-              className="lg:hidden p-2 rounded-xl bg-slate-100 hover:bg-slate-200/80 dark:bg-slate-900 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 transition-colors border border-slate-200/10"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="lg:hidden p-2 rounded-xl bg-slate-100 hover:bg-slate-200/80 dark:bg-slate-900 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 transition-colors border border-slate-200/10 focus:outline-none flex flex-col justify-center items-center gap-1 w-9 h-9"
               aria-label="Toggle Menu"
             >
-              <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                <path fillRule="evenodd" d="M3 5h18v2H3V5zm0 6h18v2H3v-2zm0 6h18v2H3v-2z" />
-              </svg>
+              <motion.span
+                animate={mobileMenuOpen ? { rotate: 45, y: 5 } : { rotate: 0, y: 0 }}
+                transition={{ duration: 0.2 }}
+                className="w-4 h-[2px] bg-current rounded-full"
+              />
+              <motion.span
+                animate={mobileMenuOpen ? { opacity: 0 } : { opacity: 1 }}
+                transition={{ duration: 0.15 }}
+                className="w-4 h-[2px] bg-current rounded-full"
+              />
+              <motion.span
+                animate={mobileMenuOpen ? { rotate: -45, y: -5 } : { rotate: 0, y: 0 }}
+                transition={{ duration: 0.2 }}
+                className="w-4 h-[2px] bg-current rounded-full"
+              />
             </button>
           </div>
         </div>

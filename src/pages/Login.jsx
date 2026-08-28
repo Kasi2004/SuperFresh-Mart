@@ -56,7 +56,7 @@ export default function Login() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
-        className="w-full max-w-md glass-card bg-white dark:bg-slate-900/80 p-8 rounded-[32px] border border-slate-100 dark:border-slate-800 shadow-xl text-left"
+        className="w-full max-w-md glass-card bg-white dark:bg-slate-900/80 p-6 sm:p-8 rounded-[32px] border border-slate-100 dark:border-slate-800 shadow-xl text-left"
       >
         {/* Brand Logo header */}
         <div className="flex items-center gap-2.5 justify-center mb-6">

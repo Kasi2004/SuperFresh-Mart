@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import PremiumHoverText from './PremiumHoverText';
 import {
   FaAppleAlt,
   FaShoppingBasket,
@@ -33,10 +34,16 @@ const iconMap = {
 
 export default function CategoryCard({ category }) {
   const IconComponent = iconMap[category.icon] || FaShoppingBasket;
+  const [isTouch, setIsTouch] = useState(false);
+
+  useEffect(() => {
+    setIsTouch('ontouchstart' in window || navigator.maxTouchPoints > 0);
+  }, []);
 
   return (
     <motion.div
-      whileHover={{ y: -8, scale: 1.02 }}
+      whileHover={isTouch ? {} : { y: -8, scale: 1.02 }}
+      whileTap={{ scale: 0.98 }}
       transition={{ type: 'spring', stiffness: 300, damping: 18 }}
       className="h-full"
     >
@@ -67,8 +74,8 @@ export default function CategoryCard({ category }) {
         </div>
 
         {/* Text Details */}
-        <h3 className="font-bold text-slate-800 dark:text-slate-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors text-base md:text-lg mb-2">
-          {category.name}
+        <h3 className="font-bold text-slate-800 dark:text-slate-100 transition-colors text-base md:text-lg mb-2">
+          <PremiumHoverText>{category.name}</PremiumHoverText>
         </h3>
         <p className="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 leading-relaxed">
           {category.description}

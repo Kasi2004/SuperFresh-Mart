@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaPaperPlane } from 'react-icons/fa';
 import { useApp } from '../context/AppContext';
+import PremiumHoverText from './PremiumHoverText';
 
 export default function Footer() {
   const { showToast } = useApp();
@@ -49,7 +50,7 @@ export default function Footer() {
                 key={i}
                 href="#"
                 onClick={(e) => e.preventDefault()}
-                className="w-9 h-9 rounded-xl bg-slate-800 hover:bg-primary-500 hover:text-white flex items-center justify-center transition-all"
+                className="w-10 h-10 rounded-xl bg-slate-800 hover:bg-primary-500 hover:text-white flex items-center justify-center transition-all focus:outline-none"
                 title={social.name}
               >
                 {social.icon}
@@ -73,9 +74,9 @@ export default function Footer() {
               <li key={idx}>
                 <Link
                   to={`/products?category=${cat.slug}`}
-                  className="text-slate-400 hover:text-primary-400 hover:translate-x-1 transition-all inline-block"
+                  className="text-slate-400 focus:outline-none transition-colors"
                 >
-                  {cat.name}
+                  <PremiumHoverText>{cat.name}</PremiumHoverText>
                 </Link>
               </li>
             ))}
@@ -97,9 +98,9 @@ export default function Footer() {
               <li key={idx}>
                 <Link
                   to={link.path}
-                  className="text-slate-400 hover:text-primary-400 hover:translate-x-1 transition-all inline-block"
+                  className="text-slate-400 focus:outline-none transition-colors"
                 >
-                  {link.name}
+                  <PremiumHoverText>{link.name}</PremiumHoverText>
                 </Link>
               </li>
             ))}

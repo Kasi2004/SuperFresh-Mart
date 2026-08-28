@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaTimes, FaHome, FaList, FaPercent, FaInfoCircle, FaPhoneAlt, FaMapMarkerAlt, FaCaretDown, FaSignInAlt, FaSignOutAlt } from 'react-icons/fa';
+import { FaTimes, FaHome, FaList, FaPercent, FaInfoCircle, FaPhoneAlt, FaMapMarkerAlt, FaCaretDown, FaSignInAlt, FaSignOutAlt, FaShoppingBag, FaWrench, FaProjectDiagram } from 'react-icons/fa';
 import { useApp } from '../context/AppContext';
 
 export default function MobileMenu({ isOpen, onClose }) {
-  const { location, locations, updateLocation, isLoggedIn, logout } = useApp();
+  const { location, locations, updateLocation, isLoggedIn, logout, showToast } = useApp();
   const navigate = useNavigate();
   const [showLocationList, setShowLocationList] = useState(false);
 
@@ -108,39 +108,67 @@ export default function MobileMenu({ isOpen, onClose }) {
 
               {/* Navigation list */}
               <nav className="flex flex-col gap-2">
-                <NavLink to="/" onClick={onClose} className={linkClass}>
-                  <FaHome className="w-4 h-4" />
-                  <span>Home</span>
-                </NavLink>
-                <NavLink to="/categories" onClick={onClose} className={linkClass}>
-                  <FaList className="w-4 h-4" />
-                  <span>All Categories</span>
-                </NavLink>
-                <NavLink to="/offers" onClick={onClose} className={linkClass}>
-                  <FaPercent className="w-4 h-4" />
-                  <span>Offers & Deals</span>
-                </NavLink>
-                <NavLink to="/about" onClick={onClose} className={linkClass}>
-                  <FaInfoCircle className="w-4 h-4" />
-                  <span>About Us</span>
-                </NavLink>
-                <NavLink to="/contact" onClick={onClose} className={linkClass}>
-                  <FaPhoneAlt className="w-4 h-4" />
-                  <span>Contact</span>
-                </NavLink>
-                {isLoggedIn ? (
-                  <button
-                    onClick={handleLogoutClick}
-                    className="flex items-center gap-3.5 px-4 py-3 rounded-2xl text-sm font-bold tracking-wide text-rose-500 hover:bg-rose-50 dark:hover:bg-rose-950/20 transition-all w-full text-left cursor-pointer"
-                  >
-                    <FaSignOutAlt className="w-4 h-4" />
-                    <span>Logout</span>
-                  </button>
-                ) : (
-                  <NavLink to="/login" onClick={onClose} className={linkClass}>
-                    <FaSignInAlt className="w-4 h-4" />
-                    <span>Login</span>
+                <motion.div whileTap={{ scale: 0.97 }}>
+                  <NavLink to="/" onClick={onClose} className={linkClass}>
+                    <FaHome className="w-4 h-4" />
+                    <span>Home</span>
                   </NavLink>
+                </motion.div>
+
+                <motion.div whileTap={{ scale: 0.97 }}>
+                  <NavLink to="/products" onClick={onClose} className={linkClass}>
+                    <FaShoppingBag className="w-4 h-4" />
+                    <span>Shop</span>
+                  </NavLink>
+                </motion.div>
+
+                <motion.div whileTap={{ scale: 0.97 }}>
+                  <NavLink to="/categories" onClick={onClose} className={linkClass}>
+                    <FaList className="w-4 h-4" />
+                    <span>All Categories</span>
+                  </NavLink>
+                </motion.div>
+
+
+
+                <motion.div whileTap={{ scale: 0.97 }}>
+                  <NavLink to="/offers" onClick={onClose} className={linkClass}>
+                    <FaPercent className="w-4 h-4" />
+                    <span>Offers & Deals</span>
+                  </NavLink>
+                </motion.div>
+
+                <motion.div whileTap={{ scale: 0.97 }}>
+                  <NavLink to="/about" onClick={onClose} className={linkClass}>
+                    <FaInfoCircle className="w-4 h-4" />
+                    <span>About Us</span>
+                  </NavLink>
+                </motion.div>
+
+                <motion.div whileTap={{ scale: 0.97 }}>
+                  <NavLink to="/contact" onClick={onClose} className={linkClass}>
+                    <FaPhoneAlt className="w-4 h-4" />
+                    <span>Contact</span>
+                  </NavLink>
+                </motion.div>
+
+                {isLoggedIn ? (
+                  <motion.div whileTap={{ scale: 0.97 }}>
+                    <button
+                      onClick={handleLogoutClick}
+                      className="flex items-center gap-3.5 px-4 py-3 rounded-2xl text-sm font-bold tracking-wide text-rose-500 hover:bg-rose-50 dark:hover:bg-rose-950/20 transition-all w-full text-left cursor-pointer font-sans"
+                    >
+                      <FaSignOutAlt className="w-4 h-4" />
+                      <span>Logout</span>
+                    </button>
+                  </motion.div>
+                ) : (
+                  <motion.div whileTap={{ scale: 0.97 }}>
+                    <NavLink to="/login" onClick={onClose} className={linkClass}>
+                      <FaSignInAlt className="w-4 h-4" />
+                      <span>Login</span>
+                    </NavLink>
+                  </motion.div>
                 )}
               </nav>
 
